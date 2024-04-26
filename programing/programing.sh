@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/html/forms/input-attributes/
+cd /home/hesam/Documents/Hesam/html/forms/form-attributes
 echo "Please enter name file : "
 read name
 mkdir $name
