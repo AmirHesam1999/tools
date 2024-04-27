@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/html/forms/form-attributes
+cd /home/hesam/Documents/Hesam/html/graphics/canvas
 echo "Please enter name file : "
 read name
 mkdir $name
