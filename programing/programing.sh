@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/html/graphics/canvas
+cd /home/hesam/Documents/Hesam/html/media/video
 echo "Please enter name file : "
 read name
 mkdir $name
@@ -12,3 +12,5 @@ echo "Please enter git commit : "
 read com
 git commit -m "$com"
 git push
+killall code
+
