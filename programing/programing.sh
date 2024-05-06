@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/html/api
+cd /home/hesam/Documents/Hesam/html/api/drag-and-drop
 echo "Please enter name file : "
 read name
 mkdir $name
