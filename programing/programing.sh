@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/html/api/SSE
+cd /home/hesam/Documents/Hesam/Css/tutorial/comments
 echo "Please enter name file : "
 read name
 mkdir $name
