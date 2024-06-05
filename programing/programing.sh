@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/Css/tutorial/colors/colors
+cd /home/hesam/Documents/Hesam/Css/tutorial/backgrounds/color
 echo "Please enter name file : "
 read name
 mkdir $name
