@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/Css/tutorial/backgrounds/Shorthand
+cd /home/hesam/Documents/Hesam/Css/tutorial/Borders/Borders
 echo "Please enter name file : "
 read name
 mkdir $name
