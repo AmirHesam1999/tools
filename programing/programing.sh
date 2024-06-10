@@ -9,8 +9,8 @@ read stop
 google-chrome $name/index.html
 git add $name/index.html
 echo "Please enter git commit : "
-read com
-git commit -m "$com"
+read comm
+git commit -m "$comm"
 git push
 killall code
 
