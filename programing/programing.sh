@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/Css/tutorial/Borders/Sides
+cd /home/hesam/Documents/Hesam/Css/tutorial/Borders/Shorthand
 echo "Please enter name file : "
 read name
 mkdir $name
@@ -9,8 +9,8 @@ read stop
 google-chrome $name/index.html
 git add $name/index.html
 echo "Please enter git commit : "
-read comm
-git commit -m "$comm"
+read com
+git commit -m "$com"
 git push
 killall code
 
