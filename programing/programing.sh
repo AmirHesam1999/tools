@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/Css/tutorial/margins/margins
+cd /home/hesam/Documents/Hesam/Css/tutorial/margins/Collapse
 echo "Please enter name file : "
 read name
 mkdir $name
