@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/Css/tutorial/padding
+cd /home/hesam/Documents/Hesam/Css/tutorial/padding/Shorthand-Property
 echo "Please enter name file : "
 read name
 mkdir $name
