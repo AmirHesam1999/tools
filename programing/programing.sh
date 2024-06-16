@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/Css/tutorial/padding/Padding-and-Element-Width
+cd /home/hesam/Documents/Hesam/Css/tutorial/height-width
 echo "Please enter name file : "
 read name
 mkdir $name
