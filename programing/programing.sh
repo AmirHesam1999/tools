@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/Css/tutorial/height-width
+cd /home/hesam/Documents/Hesam/Css/tutorial/box-model
 echo "Please enter name file : "
 read name
 mkdir $name
