@@ -12,5 +12,5 @@ echo "Please enter git commit : "
 read com
 git commit -m "$com"
 git push
-killall code
+killall code  
 
