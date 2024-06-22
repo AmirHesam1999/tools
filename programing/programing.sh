@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/Css/tutorial/outline
+cd /home/hesam/Documents/Hesam/Css/tutorial/outline/outline
 echo "Please enter name file : "
 read name
 mkdir $name
