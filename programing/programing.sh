@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/Css/tutorial/outline/outline
+cd /home/hesam/Documents/Hesam/Css/tutorial/outline/Outline-Width
 echo "Please enter name file : "
 read name
 mkdir $name
