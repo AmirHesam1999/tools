@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/Css/tutorial/Font
+cd /home/hesam/Documents/Hesam/Css/tutorial/Font/Web-Safe
 echo "Please enter name file : "
 read name
 mkdir $name
