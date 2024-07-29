@@ -1,5 +1,8 @@
 #!/bin/bash
-cd /home/hesam/Documents/Hesam/Css/tutorial/Font/Fallbacks
+echo "Please enter new path : "
+read path
+cd $path
+
 echo "Please enter name file : "
 read name
 mkdir $name
