@@ -15,6 +15,7 @@ echo "-----------------------------------------------"
 git add $name/index.html
 echo "Please enter git commit : "
 read com
+echo "-----------------------------------------------"
 git commit -m "$com"
 echo "-----------------------------------------------"
 git push
