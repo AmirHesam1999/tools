@@ -9,6 +9,7 @@ echo "-----------------------------------------------"
 mkdir $name
 touch $name/index.html
 code $name/index.html
+echo "Please enter for run program in browser : "
 read stop
 google-chrome $name/index.html
 echo "-----------------------------------------------"
