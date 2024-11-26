@@ -1,8 +1,9 @@
 #!/bin/bash
 echo "Please enter new path : "
 read path
+cd $path
 echo "-----------------------------------------------"
-git add $path/Main.java
+git add Main.java
 echo "Please enter git commit : "
 read com
 echo "-----------------------------------------------"
