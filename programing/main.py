@@ -1,3 +1,5 @@
 #!/bin/python3
 name = input("Enter name: ")
-print(name.replace(" ", "_"))
+name = name.replace(" ", "_")
+name = name.replace("/", "_or_")
+print(name)
