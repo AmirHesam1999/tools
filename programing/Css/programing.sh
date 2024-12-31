@@ -6,7 +6,7 @@ echo "-----------------------------------------------"
 echo "Please enter name file : "
 read name
 echo "-----------------------------------------------"
-mkdir $name
+mkdir "'"+$name+"'"
 touch $name/index.html
 code $name/index.html
 echo "Please enter for run program in browser : "
