@@ -6,14 +6,14 @@ echo "-----------------------------------------------"
 echo "Please enter name file : "
 read name
 echo "-----------------------------------------------"
-mkdir '$name'
-touch '$name'/index.html
-code '$name'/index.html
+mkdir $name
+touch $name/index.html
+code $name/index.html
 echo "Please enter for run program in browser : "
 read stop
-google-chrome '$name'/index.html
+google-chrome $name/index.html
 echo "-----------------------------------------------"
-git add '$name'/index.html
+git add $name/index.html
 echo "Please enter git commit : "
 read com
 echo "-----------------------------------------------"
