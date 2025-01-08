@@ -1,10 +1,13 @@
 #!/bin/python3
 # get value for edit inner text 
-s = input("Is commit (y/n)")
+s = input("Is commit (y/n): ")
 name = ""
 if s == "y":
     name = input("Enter name: ")
-    name.replace('"', "'")
+    
+    name = name.replace('"', "'")
+
+    print("--------------------------")
     print(name)
 elif s == "n":
     name = input("Enter name: ")
@@ -30,5 +33,5 @@ elif s == "n":
     if i != -1:
         name = name[:i]+ '\\' + name[i:] 
     print(name)
-"
+
 
