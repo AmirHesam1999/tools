@@ -1,25 +1,34 @@
 #!/bin/python3
 # get value for edit inner text 
-name = input("Enter name: ")
+s = input("Is commit (y/n)")
+name = ""
+if s == "y":
+    name = input("Enter name: ")
+    name.replace('"', "'")
+    print(name)
+elif s == "n":
+    name = input("Enter name: ")
 
-# replace value " " to "_"
-name = name.replace(" ", "_")
+    # replace value " " to "_"
+    name = name.replace(" ", "_")
 
-name = name.replace("/", "_or_")
+    name = name.replace("/", "_or_")
 
-# if text has "|" before "|" add "\"
-i = 0
-i = name .rfind("|")
-if i != -1:
-    name = name[:i]+ '\\' + name[i:] 
+    # if text has "|" before "|" add "\"
+    i = 0
+    i = name .rfind("|")
+    if i != -1:
+        name = name[:i]+ '\\' + name[i:] 
 
-i = 0
-i = name .rfind("(")
-if i != -1:
-    name = name[:i]+ '\\' + name[i:] 
+    i = 0
+    i = name .rfind("(")
+    if i != -1:
+        name = name[:i]+ '\\' + name[i:] 
 
-i = 0
-i = name .rfind(")")
-if i != -1:
-    name = name[:i]+ '\\' + name[i:] 
-print(name)
+    i = 0
+    i = name .rfind(")")
+    if i != -1:
+        name = name[:i]+ '\\' + name[i:] 
+    print(name)
+"
+
