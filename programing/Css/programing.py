@@ -1,26 +1,5 @@
 #!/bin/python3
-def clear_name (name):
-    # replace value " " to "_"
-    name = name.replace(" ", "_")
 
-    name = name.replace("/", "_or_")
-
-    # if text has "|" before "|" add "\"
-    i = 0
-    i = name .rfind("|")
-    if i != -1:
-        name = name[:i]+ '\\' + name[i:] 
-
-    i = 0
-    i = name .rfind("(")
-    if i != -1:
-        name = name[:i]+ '\\' + name[i:] 
-
-    i = 0
-    i = name .rfind(")")
-    if i != -1:
-        name = name[:i]+ '\\' + name[i:] 
-    return name
 def clear_commit(name):
     name = name.replace('"', "'")
     return name
@@ -29,11 +8,9 @@ path = input("Please enter new path: ")
 os.chdir(path)
 print("----------------------------")
 name = input("Please enter name file : ")
-name = clear_name(name)
-s = "mkdir "+name
-print("----------------------------")
-os.system("mkdir "+name)
+os.mkdir(name)
 os.chdir(name)
+print("----------------------------")
 os.system("touch index.html")
 os.system("code index.html")
 if input("Please enter (y) for run program in terminal : ") == 'y':
