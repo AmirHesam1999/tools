@@ -4,8 +4,7 @@ def clear_commit(name):
     name = name.replace('"', "'")
     return name
 import os 
-file = list(open('/home/hesam/Documents/Hesam/tools/programing/Css/path.txt','r'))
-path = file[0]
+path = input("Please enter new path: ")
 os.chdir(path)
 print("----------------------------")
 name = input("Please enter name file : ")
