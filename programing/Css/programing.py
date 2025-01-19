@@ -6,6 +6,7 @@ def clear_commit(name):
 import os 
 path = input("Please enter new path: ")
 os.chdir(path)
+os.system("git log")
 print("----------------------------")
 name = input("Please enter name file : ")
 os.mkdir(name)
@@ -21,6 +22,4 @@ if input("Please enter (y) for run program in terminal : ") == 'y':
     n = clear_commit(n)
     os.system('git commit -m "'+n+'"')
     print("----------------------------")
-    os.system("git log")
-    if input("Are you push git? (y/n): ") == 'y':
-        os.system("git push")
+    os.system("git push")
