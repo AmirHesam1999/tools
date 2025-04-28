@@ -9,12 +9,12 @@ def program(b):
         os.system("touch main.py")
         os.system("code main.py")
     else:
-        os.system("code index.html")
+        os.system("code main.py")
         programptwo()
 
 def programptwo():
     if input("Please enter (y) for run program in terminal : ") == 'y':
-        os.system("google-chrome index.html")
+        os.system("python3 main.py")
         n = input("Are you complete program (y/n) : ")
         if n == 'y':
             os.system("git add main.py")
